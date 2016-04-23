@@ -1,0 +1,54 @@
+# depslib dependency file v1.0
+1461429743 source:/home/shahar23/Pawel/MarioClone/MarioClone/main.cpp
+	"gameengine.h"
+	"introstate.h"
+	"main.h"
+
+1461428330 /home/shahar23/Pawel/MarioClone/MarioClone/gameengine.h
+	<SFML/Graphics.hpp>
+	<vector>
+
+1461428257 /home/shahar23/Pawel/MarioClone/MarioClone/introstate.h
+	<SFML/Window.hpp>
+	<SFML/Graphics.hpp>
+	"gamestate.h"
+
+1047958591 /home/shahar23/Pawel/MarioClone/MarioClone/gamestate.h
+	"gameengine.h"
+
+1461429517 source:/home/shahar23/Pawel/MarioClone/MarioClone/gameengine.cpp
+	<stdio.h>
+	<SFML/Graphics.hpp>
+	"gameengine.h"
+	"gamestate.h"
+
+1461429283 source:/home/shahar23/Pawel/MarioClone/MarioClone/introstate.cpp
+	<stdio.h>
+	<SFML/Graphics.hpp>
+	"gameengine.h"
+	"gamestate.h"
+	"introstate.h"
+	"playstate.h"
+
+1461371960 /home/shahar23/Pawel/MarioClone/MarioClone/playstate.h
+	"gamestate.h"
+
+1461372071 source:/home/shahar23/Pawel/MarioClone/MarioClone/menustate.cpp
+	<stdio.h>
+	"gameengine.h"
+	"gamestate.h"
+	"menustate.h"
+
+1461372051 /home/shahar23/Pawel/MarioClone/MarioClone/menustate.h
+	"gamestate.h"
+
+1461427545 source:/home/shahar23/Pawel/MarioClone/MarioClone/playstate.cpp
+	<stdio.h>
+	"gamestate.h"
+	"gameengine.h"
+	"playstate.h"
+	"menustate.h"
+
+1461429702 /home/shahar23/Pawel/MarioClone/MarioClone/main.h
+	<SFML/Graphics.hpp>
+
